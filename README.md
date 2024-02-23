@@ -9,6 +9,6 @@ add this to one of the configuration files (eg `~./config/mycroft/mycroft.conf`)
 ```javascript
 "language": {
     "detection_module": "ovos-google-lang-detector-plugin",
-    "translation_module": "ovos-google-lang-detector-plugin "
+    "translation_module": "ovos-google-translate-plugin "
 }
 ```
