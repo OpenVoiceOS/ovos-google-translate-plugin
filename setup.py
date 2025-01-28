@@ -63,7 +63,6 @@ setup(
     package_data={'': package_files('ovos_google_translate_plugin')},
     include_package_data=True,
     classifiers=[
-        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'Topic :: Text Processing :: Linguistic',
         'License :: OSI Approved :: Apache Software License',
