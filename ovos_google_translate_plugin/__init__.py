@@ -1,8 +1,8 @@
-from typing import Union, List
-
 import requests
 from ovos_plugin_manager.templates.language import LanguageDetector
 from ovos_plugin_manager.templates.language import LanguageTranslator
+from ovos_utils import classproperty
+from typing import Union, List, Set
 
 
 def google_tx(text, target="en", source="auto"):
@@ -37,6 +37,18 @@ class GoogleLangDetectPlugin(LanguageDetector):
             return {l: 1.0}
         return {}
 
+    @classproperty
+    def available_languages(cls) -> Set[str]:
+        """
+        Return languages supported by this detector implementation in this state.
+        This should be a set of languages this detector is capable of recognizing.
+        This property should be overridden by the derived class to advertise
+        what languages that engine supports.
+        Returns:
+            Set[str]: A set of language codes supported by this detector.
+        """
+        return set()  # TODO
+
 
 class GoogleTranslatePlugin(LanguageTranslator):
 
@@ -49,6 +61,30 @@ class GoogleTranslatePlugin(LanguageTranslator):
             return request_result[0][0]
         except:
             pass
+
+    @classproperty
+    def available_languages(cls) -> Set[str]:
+        """
+        Return languages supported by this detector implementation in this state.
+        This should be a set of languages this detector is capable of recognizing.
+        This property should be overridden by the derived class to advertise
+        what languages that engine supports.
+        Returns:
+            Set[str]: A set of language codes supported by this detector.
+        """
+        return set()  # TODO
+
+    def supported_translations(self, source_lang: str) -> Set[str]:
+        """
+        Get the set of target languages to which the source language can be translated.
+
+        Args:
+            source_lang (Optional[str]): The source language code.
+
+        Returns:
+            Set[str]: A set of language codes that the source language can be translated to.
+        """
+        return self.available_languages
 
 
 if __name__ == "__main__":
