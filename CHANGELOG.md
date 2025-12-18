@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.2a1) (2025-06-08)
+## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a1) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.1...0.0.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.2...0.0.3a1)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- chore: Configure Renovate [\#3](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
