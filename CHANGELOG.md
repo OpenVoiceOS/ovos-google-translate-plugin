@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.3a3](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a2...0.0.3a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#4](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a2) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a1...0.0.3a2)
