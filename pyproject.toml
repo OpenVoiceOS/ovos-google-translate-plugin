@@ -24,7 +24,7 @@ classifiers = [
 ]
 dependencies = [
     "requests",
-    "ovos-plugin-manager>=2.1.0,<2.2.0"
+    "ovos-plugin-manager>=2.1.0,<3.0.0"
 ]
 
 [project.urls]
