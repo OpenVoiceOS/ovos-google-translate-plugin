@@ -30,10 +30,10 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/OpenVoiceOS/ovos-google-translate-plugin"
 
-[project.entry-points."neon.plugin.lang.translate"]
+[project.entry-points."opm.lang.translate"]
 "ovos-google-translate-plugin" = "ovos_google_translate_plugin:GoogleTranslatePlugin"
 
-[project.entry-points."neon.plugin.lang.detect"]
+[project.entry-points."opm.lang.detect"]
 "ovos-google-lang-detector-plugin" = "ovos_google_translate_plugin:GoogleLangDetectPlugin"
 
 [tool.setuptools.dynamic]
