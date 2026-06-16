@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-google-translate-plugin"
+dynamic = ["version"]
+description = "OVOS translation module for google"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "jarbasAi", email = "jarbasai@mailfence.com"}
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Text Processing :: Linguistic",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "requests",
+    "ovos-plugin-manager>=2.1.0,<2.2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-google-translate-plugin"
+
+[project.entry-points."neon.plugin.lang.translate"]
+"ovos-google-translate-plugin" = "ovos_google_translate_plugin:GoogleTranslatePlugin"
+
+[project.entry-points."neon.plugin.lang.detect"]
+"ovos-google-lang-detector-plugin" = "ovos_google_translate_plugin:GoogleLangDetectPlugin"
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_google_translate_plugin.version.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ovos_google_translate_plugin*"]
