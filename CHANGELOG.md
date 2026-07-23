@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.4a1) (2026-07-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a5...0.0.4a1)
+
+**Merged pull requests:**
+
+- fix: handle both google\_tx response shapes for explicit source language [\#17](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/17) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.3a5](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a5) (2026-06-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a4...0.0.3a5)
