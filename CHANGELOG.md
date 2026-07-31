@@ -1,12 +1,60 @@
 # Changelog
 
-## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.2a1) (2025-06-08)
+## [0.0.4a2](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.4a2) (2026-07-31)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.1...0.0.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.4a1...0.0.4a2)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- docs: rewrite README in Simplified Technical English [\#19](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.4a1) (2026-07-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a5...0.0.4a1)
+
+**Merged pull requests:**
+
+- fix: handle both google\_tx response shapes for explicit source language [\#17](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/17) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.3a5](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a5) (2026-06-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a4...0.0.3a5)
+
+**Merged pull requests:**
+
+- chore: add missing shared CI workflows [\#15](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/15) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.3a4](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a4) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a3...0.0.3a4)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency ovos-plugin-manager to v2 [\#10](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.3a3](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a2...0.0.3a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#4](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a2) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a1...0.0.3a2)
+
+**Merged pull requests:**
+
+- chore\(deps\): update actions/setup-python action to v6 [\#8](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.3a1) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.2...0.0.3a1)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#3](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
