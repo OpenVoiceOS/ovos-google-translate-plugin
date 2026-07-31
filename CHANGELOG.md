@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.4a2](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.4a2) (2026-07-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.4a1...0.0.4a2)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#19](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.4a1) (2026-07-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.3a5...0.0.4a1)
