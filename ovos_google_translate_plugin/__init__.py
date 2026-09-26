@@ -58,7 +58,19 @@ class GoogleTranslatePlugin(LanguageTranslator):
                   source: str = "auto") -> Union[str, List[str]]:
         try:
             request_result = google_tx(text, target, source)
-            return request_result[0][0]
+            # NOTE: the google_tx endpoint returns a differently shaped
+            # response depending on whether an explicit source language is
+            # requested:
+            #   source="auto" (or omitted) -> [[translation, detected_lang]]
+            #   explicit source            -> [translation]
+            # Indexing both shapes the same way (result[0][0]) silently
+            # returns only the first character of the translation for the
+            # explicit-source case, so the two shapes need to be handled
+            # separately.
+            first = request_result[0]
+            if isinstance(first, list):
+                return first[0]
+            return first
         except:
             pass
 
