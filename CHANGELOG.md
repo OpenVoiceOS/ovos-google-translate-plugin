@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.4a3](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.4a3) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.4a2...0.0.4a3)
+
+**Merged pull requests:**
+
+- ci: add a build test that runs the suite [\#21](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/pull/21) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.0.4a2](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/tree/0.0.4a2) (2026-07-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-google-translate-plugin/compare/0.0.4a1...0.0.4a2)
